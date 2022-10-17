@@ -29,3 +29,9 @@ tsc --init
 5. "removeComments"
 6. "noEmitOnError"
 
+# Debugging in TS
+1. uncomment to "sourceMap" in emmit section
+2. The second you going to set "preLaunchTask": "tsc: build - tsconfig.json" to  "preLaunchTask": "tsc: build - tsconfig.json" - which is located in launch.json into the debugging section in visual code.
+
+
+
