@@ -66,20 +66,20 @@
 
 
 //custom types
-type Employee = {
-    readonly id: number,
-    name: string,
-    retire: (date: Date) => void
-}
+// type Employee = {
+//     readonly id: number,
+//     name: string,
+//     retire: (date: Date) => void
+// }
 
 
-let employee: Employee = {
-    id: 1,
-    name: 'Osman',
-    retire: (date: Date) => {
-        console.log(date)
-    }
-}
+// let employee: Employee = {
+//     id: 1,
+//     name: 'Osman',
+//     retire: (date: Date) => {
+//         console.log(date)
+//     }
+// }
 
 
 //union types
@@ -145,3 +145,20 @@ let employee: Employee = {
 // }
 
 // greet('osman')
+
+
+//optional chaining
+// type Customer = {
+//     birthday?: Date
+// }
+
+// function getCustomer(id: number): Customer | null | undefined {
+//     return id === 0 ? null : { birthday: new Date() }
+// }
+
+// let customer = getCustomer(1)
+// console.log(customer?.birthday?.getFullYear())
+
+// //Optional call
+// let log: any = null;
+// log?.('a')
