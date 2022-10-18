@@ -37,4 +37,12 @@ let mySize: Size = Size.Medium;
 console.log(mySize)
 
 
+//functions in TS
+function calculateTax(income: number, taxYear: number): number {
+    if (taxYear < 2022) {
+        return 30 * 1.5
+    }
+    return income * 2
+}
 
+calculateTax(10_000, 2022)
