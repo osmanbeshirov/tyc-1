@@ -22,7 +22,15 @@ let level;
 
 //type array
 let numbers: number[] = [1, 2, 3];
-
 let names: string[] = ['john', 'sam', 'dean']
+
+
+
+// type tuple
+//types number and properties number are must be equal
+let user: [number, string, boolean, number] = [10, 'sma', true, 23];
+
+
+//type enums
 
 
