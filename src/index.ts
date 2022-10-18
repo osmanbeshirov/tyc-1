@@ -125,8 +125,23 @@ let employee: Employee = {
 
 
 //Literal types
-type Quantity = 50 | 100;
-let score: Quantity = 50
+// type Quantity = 50 | 100;
+// let score: Quantity = 50
 
-type Metric = 'cm' | 'inch';
-let size: Metric = 'cm'
+// type Metric = 'cm' | 'inch';
+// let size: Metric = 'cm'
+
+
+
+//nullable types
+
+// function greet(name: string | null | undefined) {
+//     if (name) {
+//         console.log(name.toUpperCase())
+//     }
+//     else {
+//         console.log('Hi')
+//     }
+// }
+
+// greet('osman')
