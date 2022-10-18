@@ -102,22 +102,31 @@ let employee: Employee = {
 
 
 //intersection method
-type Draggable = {
-    drag: () => void
-}
+// type Draggable = {
+//     drag: () => void
+// }
 
-type Resizable = {
-    resize: () => void
-}
+// type Resizable = {
+//     resize: () => void
+// }
 
-type UIWidget = Draggable & Resizable;
+// type UIWidget = Draggable & Resizable;
 
-let textBox: UIWidget = {
-    drag: () => {
-        console.log('drag')
-    },
-    resize: () => {
-        console.log('resize')
-    }
-}
+// let textBox: UIWidget = {
+//     drag: () => {
+//         console.log('drag')
+//     },
+//     resize: () => {
+//         console.log('resize')
+//     }
+// }
 
+
+
+
+//Literal types
+type Quantity = 50 | 100;
+let score: Quantity = 50
+
+type Metric = 'cm' | 'inch';
+let size: Metric = 'cm'
