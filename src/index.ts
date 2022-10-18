@@ -50,16 +50,34 @@
 
 
 //object types in TS\
-let employee: {
+// let employee: {
+//     readonly id: number,
+//     name: string,
+//     retire: (date: Date) => void
+// } = {
+//     id: 1,
+//     name: 'Osman',
+//     retire: (date: Date) => {
+//         console.log(date)
+//     }
+// }
+
+
+
+
+//custom types
+type Employee = {
     readonly id: number,
     name: string,
     retire: (date: Date) => void
-} = {
+}
+
+
+let employee: Employee = {
     id: 1,
     name: 'Osman',
     retire: (date: Date) => {
         console.log(date)
     }
 }
-
 
