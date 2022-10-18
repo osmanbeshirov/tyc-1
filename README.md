@@ -33,5 +33,20 @@ tsc --init
 1. uncomment to "sourceMap" in emmit section
 2. The second you going to set "preLaunchTask": "tsc: build - tsconfig.json" to  "preLaunchTask": "tsc: build - tsconfig.json" - which is located in launch.json into the debugging section in visual code.
 
+# Fundamentals in TS
+1. The any type
+2. Arrays
+3. Tuples
+4. Enums
+5. Functions
+6. Objects
+
+# All Types of TS
+1. any
+2. unkown
+3. never
+4. enum
+5. tuple
+
 
 
