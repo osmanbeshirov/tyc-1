@@ -100,3 +100,24 @@ let employee: Employee = {
 
 
 
+
+//intersection types
+type Draggable = {
+    drag: () => void
+}
+
+type Resizable = {
+    resize: () => void
+}
+
+type UIWidget = Draggable & Resizable;
+
+let textBox: UIWidget = {
+    drag: () => {
+        console.log('drag')
+    },
+    resize: () => {
+        console.log('resize')
+    }
+}
+
