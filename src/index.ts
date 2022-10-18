@@ -101,7 +101,7 @@ let employee: Employee = {
 
 
 
-//intersection types
+//intersection method
 type Draggable = {
     drag: () => void
 }
