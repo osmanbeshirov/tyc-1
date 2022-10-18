@@ -32,5 +32,9 @@ let user: [number, string, boolean, number] = [10, 'sma', true, 23];
 
 
 //type enums
+const enum Size { Small = 1, Medium, Large }
+let mySize: Size = Size.Medium;
+console.log(mySize)
+
 
 
